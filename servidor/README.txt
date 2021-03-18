@@ -1,1 +1,1 @@
-la carpeta servidor se debe colocal en "c:\\xammp\htdocs\"
+la carpeta servidor se debe colocar en "c:\\xammp\htdocs\"
