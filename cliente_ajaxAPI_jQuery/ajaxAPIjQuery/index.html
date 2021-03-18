@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>AJAX API with jQuery</h1>
+    <div>
+        <button id="elements">get elements from API</button>
+        <ul id="lista"></ul>       
+        <p id="info"></p>
+
+    </div>
+
+    <div>
+        <h2>consumir imagen jquery: GET</h2>
+        <button type="button" id="getImgLoc">cargar imagen local</button>
+        <button type="button" id="remImgLoc">quitar imagen local</button><br>
+        <img src="" alt="" id="localeImage" height="100px"><br>
+
+        <button type="button" id="getImgAPI">cargar imagen API</button>
+        <button type="button" id="remImgAPI">quitar imagen API</button><br>
+        <img src="" alt="" id="APIImage" height="100px"><br>
+    </div>
+
+    <div>
+        <h2>Send data from form to Server: POST</h2>
+
+        <form id="formulario"> 
+            user:<br>
+            <input type="text" name="user"> <br> 
+            Password:<br>
+            <input type="password" name="password"><br><br>
+            <button type="submit" id="butSub">Submit</button>
+            <p id="msg"></p>
+        </form>
+    </div>
+
+    
+    <!-- -------------------------------------------------------------- -->
+
+    <br>
+    <div>
+        <button type="button" id="bjs">javascript</button>
+        <p id="pjs">javascript</p>
+
+        <button type="button" id="bjq">jquery</button>
+        <p id="pjq">jquery</p>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

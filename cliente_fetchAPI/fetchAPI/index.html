@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fetch API</h1>
+    
+    <div>
+        <button id="elements" onclick="getDataFromAPI()">get elements from API</button>
+        <ul id="lista"></ul>       
+        <p id="info"></p>
+    </div>
+
+    <div>
+        <h2>consumir imagen: GET</h2>
+        <button type="button" onclick="upploadImageFromLocalServer()">cargar imagen local</button>
+        <button type="button" onclick="removeImagenFromLocalServer()">quitar imagen local</button><br>
+        <img src="" alt="" id="localeImage" height="100px"><br>
+
+        <button type="button" onclick="upploadImageFromAPIServer()">cargar imagen API</button>
+        <button type="button" onclick="removeImagenFromAPIServer()">quitar imagen API</button><br>
+        <img src="" alt="" id="APIImage"><br>
+    </div>
+    
+    <div>
+        <h2>Send data from form to Server: POST</h2>
+
+        <form id="formulario"> 
+            user:<br>
+            <input type="text" name="user"> <br> 
+            Password:<br>
+            <input type="password" name="password"> <br><br>
+            <button type="submit">Submit</button>
+            <p id="msg"></p>
+        </form>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
